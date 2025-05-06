@@ -14,10 +14,10 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [
-        { rel: 'icon', type: 'image/png', href: '/rex-icon.png' }
+        { rel: 'icon', type: 'image/png', href: '/tekshf-icon.png' }
       ],
       title: 'Tekshf',
-      titleTemplate: 'Tekshf - %s',
+      // titleTemplate: 'Tekshf - %s',
       htmlAttrs: {
         lang: 'en',
       },
