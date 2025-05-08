@@ -1,0 +1,12 @@
+/**** Hero-Section Styles ****/
+section#home {
+    position: relative;
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: var(--bg-color);
+    color: white;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/**** end of Hero-Section Styles ****/

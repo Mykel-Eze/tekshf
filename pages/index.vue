@@ -1,12 +1,13 @@
 <template>
-    <div>
-        <h1>Welcome to the Home Page</h1>
-        <p>This is the main content of the home page.</p>
-    </div>
+    <!-- Hero Section -->
+    <HeroSection />
 </template>
 
-<script setup>
-    // useHead({
-    //     title: 'Home'
-    // })
+<style src="~/assets/css/home.css"></style>
+
+<script lang="ts" setup>
+
+    useHead({
+        title: 'Home'
+    })
 </script>
