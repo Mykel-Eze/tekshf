@@ -51,11 +51,13 @@ button.form-trigger-btn {
     border-radius: 6px;
     margin-bottom: 16px;
     margin: 0 auto;
+    text-transform: uppercase;
 }
 .home-text-wrapper .section-label {
     background: rgba(255, 255, 255, 0.1);
     color: white;
     margin: 0 0 16px;
+    text-transform: none;
 }
 
 @media (max-width: 768px) {
@@ -201,10 +203,62 @@ p.service-block-desc {
 /**** end of Services-Section Styles ****/
 
 /**** About-Section Styles ****/
+section#about {
+    padding: 100px 0;
+    background-color: var(--bg-color-2);
+}
+.about-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+.about-points-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 40px;
+}
+.about-point-block {
+    padding: 16px 22px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background-color: white;
+    text-align: center;
+}
+.about-point-number {
+    font-size: 20px;
+    font-family: var(--font-bold);
+}
+.about-point-text {
+    font-size: 12px;
+    font-family: var(--font-medium);
+}
+h2.section-title {
+    font-size: 34px;
+    color: #02144A;
+    letter-spacing: -1px;
+}
+section#about .section-label {
+    margin: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
 
 @media (max-width: 992px) {}
 
-@media (max-width: 600px) {}
+@media (max-width: 768px) {
+    .about-content-wrapper {
+        grid-template-columns: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-points-wrapper {
+        grid-template-columns: 100%;
+    }
+}
 /**** end of About-Section Styles ****/
 
 /**** Partnership-Section Styles ****/

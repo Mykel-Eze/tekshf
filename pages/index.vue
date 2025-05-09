@@ -5,6 +5,9 @@
     <!-- Services Section -->
     <ServicesSection />
 
+    <!-- About Section -->
+    <AboutSection />
+
     <!-- Ready-To-Start Section -->
     <ReadyToStartSection />
 </template>
