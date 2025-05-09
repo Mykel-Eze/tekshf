@@ -8,6 +8,9 @@
     <!-- About Section -->
     <AboutSection />
 
+    <!-- Partnership Section -->
+    <PartnershipSection />
+
     <!-- Ready-To-Start Section -->
     <ReadyToStartSection />
 </template>

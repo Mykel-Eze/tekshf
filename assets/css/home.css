@@ -262,10 +262,50 @@ section#about .section-label {
 /**** end of About-Section Styles ****/
 
 /**** Partnership-Section Styles ****/
+section#partnership {
+    padding: 75px 0;
+    background-color: var(--pry-color);
+    color: white;
+    background-image: url(../images/vector-art-full.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.partnership-content-wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.partnership-block-text {
+    font-size: 18px;
+    font-family: var(--font-smbold);
+    text-transform: uppercase;
+    margin-top: 24px;
+}
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .partnership-block-text {
+        font-size: 14px;
+        font-family: var(--font-medium);
+    }
+}
 
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+    section#partnership {
+        padding: 75px 0;
+        background-color: var(--pry-color);
+        color: white;
+        background-image: url(../images/vector-art-full.png);
+        background-size: cover;
+    }
+    .partnership-content-wrapper {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}
 /**** end of Partnership-Section Styles ****/
 
 /**** Coming-Soon-Section Styles ****/
