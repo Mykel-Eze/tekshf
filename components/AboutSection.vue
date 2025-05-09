@@ -7,7 +7,7 @@
             <img src="~/assets/images/disscover-left-side.png" alt="about" class="w-full md:w-[80%]" />
           </div>
           <div class="about-txt-wrapper text-[#02144A]">
-            <div class="section-label">About</div>
+            <div class="section-label mag-0">About</div>
             <h2 class="section-title mt-[12px] mb-[24px]">Discover Tekshf</h2>
             <p class="text-[16px] md:text-[16px]">
               Tekshf is your AI-powered travel companion dedicated to making your AFCON Morocco 

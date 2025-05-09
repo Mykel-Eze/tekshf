@@ -242,7 +242,6 @@ h2.section-title {
     letter-spacing: -1px;
 }
 section#about .section-label {
-    margin: 0;
     background: rgba(255, 255, 255, 0.5);
 }
 
@@ -316,10 +315,66 @@ section#partnership {
 /**** end of Coming-Soon-Section Styles ****/
 
 /**** FAQ-Section Styles ****/
+section#faq {
+    position: relative;
+    padding: 100px 0;
+}
+.faq-content-wrapper {
+    display: grid;
+    grid-template-columns: minmax(40%, 450px) 1fr;
+    gap: 50px;
+}
+section#faq ul.collapsible {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: none;
+    border: none;
+}
+section#faq ul.collapsible li {
+    background-color: #F5F6F8;
+    border: none;
+    border-radius: 20px;
+}
+section#faq ul.collapsible li img.caret-icon {
+    transform: rotate(0deg);
+    transition: all 1.2s;
+}
+section#faq ul.collapsible li.active img.caret-icon {
+    transform: rotate(180deg);
+}
+section#faq ul.collapsible li .collapsible-header {
+    background-color: #F5F6F8;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: var(--font-medium);
+    padding: 26px;
+}
+section#faq ul.collapsible li .collapsible-body {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 50px 26px;
+    border: none;
+}
 
 @media (max-width: 992px) {}
 
-@media (max-width: 600px) {}
+@media (max-width: 768px) {
+    section#faq {
+        padding: 64px 0;
+    }
+    .faq-content-wrapper {
+        grid-template-columns: 100%;
+        gap: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    section#faq ul.collapsible li .collapsible-body {
+        padding: 0 45px 26px 50px;
+    }
+}
 /**** end of FAQ-Section Styles ****/
 
 /**** Ready-To-Start-Section Styles ****/
