@@ -307,12 +307,26 @@ section#partnership {
 }
 /**** end of Partnership-Section Styles ****/
 
-/**** Coming-Soon-Section Styles ****/
+/**** Product-Section Styles ****/
+section#product {
+    position: relative;
+    padding: 100px 0;
+}
 
 @media (max-width: 992px) {}
 
-@media (max-width: 600px) {}
-/**** end of Coming-Soon-Section Styles ****/
+@media (max-width: 768px) {
+    section#product {
+        padding: 64px 0;
+    }
+}
+@media (max-width: 600px) {
+    section#product h1.section-title {
+        font-size: 24px;
+        letter-spacing: 0;
+    }
+}
+/**** end of Product-Section Styles ****/
 
 /**** FAQ-Section Styles ****/
 section#faq {

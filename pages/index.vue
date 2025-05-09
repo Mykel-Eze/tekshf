@@ -12,7 +12,7 @@
     <PartnershipSection />
 
     <!-- Product Section -->
-    <!-- <ProductSection /> -->
+    <ProductSection />
 
     <!-- FAQ Section -->
     <FaqSection />

@@ -18,24 +18,24 @@
 
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li>
-                            <nuxt-link to="#about">
+                            <a href="#about">
                                 <span>About</span>
-                            </nuxt-link>
+                            </a>                       
                         </li>
                         <li>
-                            <nuxt-link to="#services">
+                            <a href="#services">
                                 <span>Services</span>
-                            </nuxt-link>
+                            </a>                       
                         </li>
                         <li>
-                            <nuxt-link to="#product">
+                            <a href="#product">
                                 <span>Product</span>
-                            </nuxt-link>
+                            </a>                       
                         </li>
                         <li>
-                            <nuxt-link to="#faq">
+                            <a href="#faq">
                                 <span>FAQs</span>
-                            </nuxt-link>
+                            </a>                       
                         </li>
                     </ul>
 
@@ -58,24 +58,24 @@
             </div>
             <ul class="sidenav-flex">
                 <li>
-                    <nuxt-link to="#about" class="sidenav-close">
+                    <a href="#about" class="sidenav-close">
                         <span>About</span>
-                    </nuxt-link>
+                    </a>               
                 </li>
                 <li>
-                    <nuxt-link to="#services" class="sidenav-close">
+                    <a href="#services" class="sidenav-close">
                         <span>Services</span>
-                    </nuxt-link>
+                    </a>               
                 </li>
                 <li>
-                    <nuxt-link to="#product" class="sidenav-close">
+                    <a href="#product" class="sidenav-close">
                         <span>Product</span>
-                    </nuxt-link>
+                    </a>               
                 </li>
                 <li>
-                    <nuxt-link to="#faq" class="sidenav-close">
+                    <a href="#faq" class="sidenav-close">
                         <span>FAQs</span>
-                    </nuxt-link>
+                    </a>               
                 </li>
                 <li class="nav-btn-wrappr">
                     <button class="get-started-btn btn sidenav-close">
