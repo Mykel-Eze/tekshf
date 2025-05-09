@@ -1,5 +1,5 @@
 <template>
-  <section id="services">
+  <section id="services" class="scrollspy">
     <div class="row">
       <div class="container">
         <div class="section-header text-center mb-[40px] md:mb-[80px]">

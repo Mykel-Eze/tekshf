@@ -4,6 +4,9 @@
 
     <!-- Services Section -->
     <ServicesSection />
+
+    <!-- Ready-To-Start Section -->
+    <ReadyToStartSection />
 </template>
 
 <style src="~/assets/css/home.css"></style>

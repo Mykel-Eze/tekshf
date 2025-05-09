@@ -171,6 +171,12 @@ p.service-block-desc {
 
 @media (max-width: 992px) {}
 
+@media (max-width: 768px) {
+    .services-wrapper {
+        grid-template-columns: 100% !important;
+    }
+}
+
 @media (max-width: 600px) {
     section#services {
         padding: 60px 0;
@@ -181,9 +187,6 @@ p.service-block-desc {
     }
     .section-desc {
         font-size: 16px;
-    }
-    .services-wrapper {
-        grid-template-columns: 100% !important;
     }
     .service-block {
         gap: 20px;
@@ -226,8 +229,32 @@ p.service-block-desc {
 /**** end of FAQ-Section Styles ****/
 
 /**** Ready-To-Start-Section Styles ****/
+section#ready-to-start {
+    padding: 150px 0;
+    background-color: var(--bg-color);
+    color: white;
+    background-image: url(../images/ready-start-banner.png);
+    background-size: cover;
+}
+section#ready-to-start .section-title {
+    color: white;
+}
+.ready-to-start-text-wrapper {
+    max-width: 480px;
+    margin: auto;
+}
 
 @media (max-width: 992px) {}
 
-@media (max-width: 600px) {}
+@media (max-width: 768px) {}
+
+@media (max-width: 600px) {
+    section#ready-to-start {
+        background-image: none;
+        padding: 64px 0 0;
+    }
+    h1.section-title {
+        font-size: 32px;
+    }
+}
 /**** end of Ready-To-Start-Section Styles ****/
