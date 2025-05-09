@@ -9,4 +9,225 @@ section#home {
     background-size: cover;
     background-position: center;
 }
+section#home::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/right-side.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.home-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.home-text-wrapper {
+    max-width: 553px;
+}
+h1.hom-title {
+    font-size: 64px;
+}
+button.form-trigger-btn {
+    background-color: var(--sec-color);
+    color: white;
+    font-family: var(--font-smbold);
+    font-size: 16px;
+    padding: 14px 32px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+.section-label {
+    font-size: 12px;
+    padding: 8px 12px;
+    width: fit-content;
+    background: #EBF1FF;
+    color: var(--pry-color);
+    border-radius: 6px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+}
+.home-text-wrapper .section-label {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    margin: 0 0 16px;
+}
+
+@media (max-width: 768px) {
+    section#home {
+        height: 60vh;
+    }
+    h1.hom-title {
+        font-size: 40px;
+    }
+}
+@media (max-width: 600px) {
+    section#home {
+        height: auto;
+    }
+    section#home::after {
+        display: none;
+    }
+    .home-content-wrapper {
+        grid-template-columns: 100%;
+        margin: 40px 0 0;
+        gap: 40px;
+    }
+    .home-text-wrapper {
+        max-width: 100%;
+    }
+    section#home .home-img-wrapper {
+        display: block;
+    }
+}
 /**** end of Hero-Section Styles ****/
+
+/**** Services-Section Styles ****/
+section#services {
+    position: relative;
+    padding: 100px 0;
+}
+h1.section-title {
+    margin: 12px 0;
+    font-size: 48px;
+    color: #212337;
+    font-family: var(--font-smbold);
+    line-height: normal;
+}
+.section-desc {
+    font-size: 22px;
+    color: #83869D;
+}
+.services-wrapper {
+    display: grid;
+    gap: 36px;
+    margin-top: 36px;
+}
+.services-wrapper.sw-1 {
+    grid-template-columns: 1fr 0.5fr;
+}
+.services-wrapper.sw-2 {
+    grid-template-columns: 0.5fr 1fr;
+}
+.service-block {
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.service-block#visa-assistance {
+    color: #581420;
+    background: linear-gradient(181.57deg, #FED2B8 4.63%, #FEF6E7 58.17%, #FEF9EB 73.45%, #FED2B8 106.46%);
+}
+.service-block#flight-bookings {
+    color: white;
+    background: linear-gradient(178.73deg, #1D84B8 -3.55%, #8CBDD2 63.56%, #99C4D5 84.07%, #1D84B8 118.34%);
+}
+.service-block#itinerary-planning {
+    color: #002E3D;
+    background: linear-gradient(180deg, #2DC3F5 0%, #73DCFF 100%);
+}
+.service-block#event-companion {
+    color: white;
+    background: linear-gradient(180deg, #6F5DFF 11.79%, #A094FF 68.34%);
+}
+
+.service-block-title {
+    font-size: 34px;
+    font-family: var(--font-bold);
+}
+p.service-block-desc {
+    font-size: 20px;
+    width: 90%;
+    margin-bottom: 24px;
+}
+.service-block .form-trigger-btn {
+    background-color: white;
+    color: black;
+}
+.serivce-block-img img {
+    margin: auto;
+    width: 100%;
+}
+.service-block#visa-assistance .serivce-block-img img {
+    max-width: 460px;
+}
+.service-block#itinerary-planning .serivce-block-img img {
+    max-width: 355px;
+}
+.service-block#itinerary-planning .serivce-block-img img {
+    max-width: 355px;
+}
+.service-block#event-companion .serivce-block-img img {
+    max-width: 600px;
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 600px) {
+    section#services {
+        padding: 60px 0;
+    }
+    h1.section-title {
+        font-size: 28px;
+        letter-spacing: -1px;
+    }
+    .section-desc {
+        font-size: 16px;
+    }
+    .services-wrapper {
+        grid-template-columns: 100% !important;
+    }
+    .service-block {
+        gap: 20px;
+    }
+    .service-block-title {
+        font-size: 24px;
+    }
+    p.service-block-desc {
+        font-size: 14px;
+    }
+}
+/**** end of Services-Section Styles ****/
+
+/**** About-Section Styles ****/
+
+@media (max-width: 992px) {}
+
+@media (max-width: 600px) {}
+/**** end of About-Section Styles ****/
+
+/**** Partnership-Section Styles ****/
+
+@media (max-width: 992px) {}
+
+@media (max-width: 600px) {}
+/**** end of Partnership-Section Styles ****/
+
+/**** Coming-Soon-Section Styles ****/
+
+@media (max-width: 992px) {}
+
+@media (max-width: 600px) {}
+/**** end of Coming-Soon-Section Styles ****/
+
+/**** FAQ-Section Styles ****/
+
+@media (max-width: 992px) {}
+
+@media (max-width: 600px) {}
+/**** end of FAQ-Section Styles ****/
+
+/**** Ready-To-Start-Section Styles ****/
+
+@media (max-width: 992px) {}
+
+@media (max-width: 600px) {}
+/**** end of Ready-To-Start-Section Styles ****/
