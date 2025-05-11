@@ -53,7 +53,11 @@ body {
     color: black;
     width: 100%;
     overflow-x: hidden;
+    overscroll-behavior: contain;
 }
+/* body.open {
+    position: fixed;
+} */
 
 h1, h2, h3, h4 {
     font-family: var(--font-bold);
