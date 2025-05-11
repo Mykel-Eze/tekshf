@@ -16,7 +16,7 @@
                 Get expert help with all the paperwork and procedures for your AFCON visa. We guide
                 you every step of the way.
               </p>
-              <button class="form-trigger-btn hover-scale">Start Your Visa Process</button>
+              <button class="form-trigger-btn hover-scale modal-trigger" data-target="get-started-modal">Start Your Visa Process</button>
             </div>
             <div class="serivce-block-img center">
               <img src="~/assets/images/passport-visa.png" alt="passport-visa">
@@ -29,7 +29,7 @@
               <p class="service-block-desc">
                 Discover the best flight deals and book your trip effortlessly.
               </p>
-              <button class="form-trigger-btn hover-scale">Find the Best Deals</button>
+              <button class="form-trigger-btn hover-scale modal-trigger" data-target="get-started-modal">Find the Best Deals</button>
             </div>
             <div class="serivce-block-img">
               <img src="~/assets/images/flight-booking.png" alt="flight-booking">
@@ -44,7 +44,7 @@
               <p class="service-block-desc">
                 From accommodation to local attractions, we ‘ve got you covered!
               </p>
-              <button class="form-trigger-btn hover-scale">Plan My Trip</button>
+              <button class="form-trigger-btn hover-scale modal-trigger" data-target="get-started-modal">Plan My Trip</button>
             </div>
             <div class="serivce-block-img">
               <img src="~/assets/images/itenary.png" alt="itenary">
@@ -58,7 +58,7 @@
                 From game tickets, hotels,  city maps, location guide, language translation, local
                 purchases, updates and emergencies.
               </p>
-              <button class="form-trigger-btn hover-scale">Be Game-Ready Now</button>
+              <button class="form-trigger-btn hover-scale modal-trigger" data-target="get-started-modal">Be Game-Ready Now</button>
             </div>
             <div class="serivce-block-img">
               <img src="~/assets/images/event-companion.png" alt="event-companion">

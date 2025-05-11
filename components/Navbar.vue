@@ -41,7 +41,7 @@
 
                     <ul class="right hide-on-med-and-down">
                         <li>
-                            <button class="get-started-btn btn">
+                            <button class="get-started-btn btn modal-trigger" data-target="get-started-modal">
                                 Get Started
                             </button>
                         </li>
@@ -78,7 +78,7 @@
                     </a>               
                 </li>
                 <li class="nav-btn-wrappr">
-                    <button class="get-started-btn btn sidenav-close">
+                    <button class="get-started-btn btn sidenav-close modal-trigger" data-target="get-started-modal">
                         Get Started
                     </button>
                 </li>

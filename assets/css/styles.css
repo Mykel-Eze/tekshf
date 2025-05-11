@@ -184,6 +184,9 @@ h5, h6 {
 .hidden-xs-sm {
     display: block !important;
 }
+.hidden-xs-sm.flex-div {
+    display: flex !important;
+}
 
 .visible-xs-sm {
     display: none !important;
@@ -242,6 +245,10 @@ a.btn {
 @media (max-width: 992px) {
     .visible-xs-sm {
         display: block !important;
+    }
+
+    .visible-xs-sm.flex-div {
+        display: flex !important;
     }
 
     .hidden-xs-sm {

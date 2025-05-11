@@ -7,7 +7,7 @@
           <p class="text-[18px] md:text-[24px] mt-[24px] mb-[48px]">
             Fill in your details to receive personalized assistance with visas, travel arrangements, and more.
           </p>
-          <button class="form-trigger-btn hover-scale">Start your Journey</button>
+          <button class="form-trigger-btn hover-scale modal-trigger" data-target="get-started-modal">Start your Journey</button>
         </div>
       </div>
       <div class="ready-to-start-img-wrapper visible-xs">

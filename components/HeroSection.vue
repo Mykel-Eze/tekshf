@@ -13,7 +13,7 @@
               football fans in the vibrant cities of Morocco for an unforgettable experience.
             </p>
             
-            <button class="form-trigger-btn hover-scale">Plan your Journey</button>
+            <button class="form-trigger-btn hover-scale modal-trigger" data-target="get-started-modal">Plan your Journey</button>
           </div>
           <div class="home-img-wrapper hidden">
             <img src="~/assets/images/right-side.png" alt="right-side" />
