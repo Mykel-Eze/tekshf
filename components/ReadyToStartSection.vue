@@ -2,7 +2,7 @@
   <section id="ready-to-start" class="scrollspy">
     <div class="row full-height">
       <div class="container full-height">
-        <div class="ready-to-start-text-wrapper">
+        <div class="ready-to-start-text-wrapper" data-aos="flip-left">
           <h1 class="section-title white-txt mag-0">Ready to Start Your Journey?</h1>
           <p class="text-[18px] md:text-[24px] mt-[24px] mb-[48px]">
             Fill in your details to receive personalized assistance with visas, travel arrangements, and more.

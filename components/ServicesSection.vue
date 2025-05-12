@@ -9,7 +9,7 @@
         </div>
 
         <div class="services-wrapper sw-1">
-          <div id="visa-assistance" class="service-block">
+          <div id="visa-assistance" class="service-block" data-aos="zoom-in-down">
             <div class="service-block-text p-10">
               <div class="service-block-title">Visa Assistance</div>
               <p class="service-block-desc">
@@ -23,7 +23,7 @@
             </div>
           </div>
 
-          <div id="flight-bookings" class="service-block">
+          <div id="flight-bookings" class="service-block" data-aos="zoom-in-down" data-aos-delay="300">
             <div class="service-block-text p-10">
               <div class="service-block-title">Flight Bookings</div>
               <p class="service-block-desc">
@@ -38,7 +38,7 @@
         </div>
 
         <div class="services-wrapper sw-2">
-          <div id="itinerary-planning" class="service-block">
+          <div id="itinerary-planning" class="service-block" data-aos="zoom-in-down" data-aos-delay="500">
             <div class="service-block-text p-10">
               <div class="service-block-title">Itinerary Planning</div>
               <p class="service-block-desc">
@@ -51,7 +51,7 @@
             </div>
           </div>
 
-          <div id="event-companion" class="service-block">
+          <div id="event-companion" class="service-block" data-aos="zoom-in-down" data-aos-delay="700">
             <div class="service-block-text p-10">
               <div class="service-block-title">Event Companion</div>
               <p class="service-block-desc">

@@ -10,7 +10,7 @@
 
                     <div class="faq-accordion-wrapper">
                         <ul class="collapsible">
-                            <li class="active">
+                            <li class="active" data-aos="zoom-in-up">
                                 <div class="collapsible-header flex justify-between">
                                     <span>What is Tekshf?</span>
                                     <img src="~/assets/images/caret.svg" alt="caret" class="caret-icon">
@@ -23,7 +23,7 @@
                                     access to Morocco’s hidden gems.
                                 </div>
                             </li>
-                            <li>
+                            <li data-aos="zoom-in-up" data-aos-delay="200">
                                 <div class="collapsible-header flex justify-between">
                                     <span>How does Tekshf work?</span>
                                     <img src="~/assets/images/caret.svg" alt="caret" class="caret-icon">
@@ -34,7 +34,7 @@
                                     real-time support to ensure a seamless travel experience.
                                 </div>
                             </li>
-                            <li>
+                            <li data-aos="zoom-in-up" data-aos-delay="300">
                                 <div class="collapsible-header flex justify-between">
                                     <span>Is Tekshf free to use?</span>
                                     <img src="~/assets/images/caret.svg" alt="caret" class="caret-icon">
@@ -45,7 +45,7 @@
                                     and priority support.
                                 </div>
                             </li>
-                            <li>
+                            <li data-aos="zoom-in-up" data-aos-delay="400">
                                 <div class="collapsible-header flex justify-between">
                                     <span>Can Tekshf help with visa applications?</span>
                                     <img src="~/assets/images/caret.svg" alt="caret" class="caret-icon">
@@ -55,7 +55,7 @@
                                     process by offering step-by-step instructions and necessary documentation checklists.
                                 </div>
                             </li>
-                            <li>
+                            <li data-aos="zoom-in-up" data-aos-delay="500">
                                 <div class="collapsible-header flex justify-between">
                                     <span>Does Tekshf support group travel planning?</span>
                                     <img src="~/assets/images/caret.svg" alt="caret" class="caret-icon">
@@ -65,7 +65,7 @@
                                     sharing travel plans, and managing bookings for multiple travelers.
                                 </div>
                             </li>
-                            <li>
+                            <li data-aos="zoom-in-up" data-aos-delay="600">
                                 <div class="collapsible-header flex justify-between">
                                     <span>What makes Tekshf unique?</span>
                                     <img src="~/assets/images/caret.svg" alt="caret" class="caret-icon">
@@ -76,7 +76,7 @@
                                     hidden gems and providing real-time assistance throughout your journey.
                                 </div>
                             </li>
-                            <li>
+                            <li data-aos="zoom-in-up" data-aos-delay="600">
                                 <div class="collapsible-header flex justify-between">
                                     <span>Is Tekshf available in other countries?</span>
                                     <img src="~/assets/images/caret.svg" alt="caret" class="caret-icon">

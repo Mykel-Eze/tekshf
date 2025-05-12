@@ -3,7 +3,7 @@
     <div class="row full-height">
       <div class="container full-height">
         <div class="about-content-wrapper">
-          <div class="about-img-wrapper">
+          <div class="about-img-wrapper" data-aos="fade-up">
             <img src="~/assets/images/disscover-left-side.png" alt="about" class="w-full md:w-[80%]" />
           </div>
           <div class="about-txt-wrapper text-[#02144A]">
@@ -16,15 +16,15 @@
               itineraries; all while giving you exclusive access to Morocco’s hidden gems.
             </p>
             <div class="about-points-wrapper">
-              <div class="about-point-block">
+              <div class="about-point-block" data-aos="zoom-in-up">
                 <div class="about-point-number bold-txt">2000+</div>
                 <div class="about-point-text">Our Explorers</div>
               </div>
-              <div class="about-point-block">
+              <div class="about-point-block" data-aos="zoom-in-up" data-aos-delay="300">
                 <div class="about-point-number bold-txt">2000+</div>
                 <div class="about-point-text">Our Explorers</div>
               </div>
-              <div class="about-point-block">
+              <div class="about-point-block" data-aos="zoom-in-up" data-aos-delay="600">
                 <div class="about-point-number bold-txt">2000+</div>
                 <div class="about-point-text">Our Explorers</div>
               </div>

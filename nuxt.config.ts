@@ -42,7 +42,7 @@ export default defineNuxtConfig({
     },
   },
   css: [
-    // 'aos/dist/aos.css',
+    'aos/dist/aos.css',
     'materialize-css/dist/css/materialize.min.css',
     '@/assets/css/fonts.css',
     '@/assets/css/styles.css',

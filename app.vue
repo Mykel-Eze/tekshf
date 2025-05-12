@@ -4,7 +4,7 @@
   </NuxtLayout>
 </template>
 
-<!-- <script>
+<script>
 import AOS from 'aos';
 
 export default {
@@ -12,4 +12,4 @@ export default {
     AOS.init();
   }
 }
-</script> -->
+</script>

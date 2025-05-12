@@ -23,38 +23,38 @@
                 <div class="full-product-wrapper mt-[70px] md:mt-[100px] mx-auto relative">
                     <div class="features-wrapper">
                         <div class="feature-row row-1">
-                            <div id="feature-1" class="feature-box">
+                            <div id="feature-1" class="feature-box" data-aos="zoom-in-up">
                                 <img src="~/assets/images/tekshf-ai.png" alt="feature-icon">
                                 <span>AI Assistant</span>
                             </div>
-                            <div id="feature-2" class="feature-box">
+                            <div id="feature-2" class="feature-box" data-aos="zoom-in-up" data-aos-delay="200">
                                 <img src="~/assets/images/card.png" alt="feature-icon">
                                 <span>Payments</span>
                             </div>
                         </div>
                         <div class="feature-row row-2">
-                            <div id="feature-3" class="feature-box">
+                            <div id="feature-3" class="feature-box" data-aos="zoom-in-up" data-aos-delay="300">
                                 <img src="~/assets/images/language.png" alt="feature-icon">
                                 <span>Translate</span>
                             </div>
-                            <div id="feature-4" class="feature-box">
+                            <div id="feature-4" class="feature-box" data-aos="zoom-in-up" data-aos-delay="400">
                                 <img src="~/assets/images/ticket.png" alt="feature-icon">
                                 <span>Event Tickets</span>
                             </div>
                         </div>
                         <div class="feature-row row-3">
-                            <div id="feature-5" class="feature-box">
+                            <div id="feature-5" class="feature-box" data-aos="zoom-in-up" data-aos-delay="500">
                                 <img src="~/assets/images/calendar.png" alt="feature-icon">
                                 <span>Itinerary</span>
                             </div>
-                            <div id="feature-6" class="feature-box">
+                            <div id="feature-6" class="feature-box" data-aos="zoom-in-up" data-aos-delay="600">
                                 <img src="~/assets/images/map.png" alt="feature-icon">
                                 <span>Local Maps</span>
                             </div>
                         </div>
                     </div>
                     
-                    <div class="phone-wrapper relative">
+                    <div class="phone-wrapper relative" data-aos="zoom-in">
                         <div class="app-wrapper relative">
                             <div class="app-header">
                                 <img src="~/assets/images/app-header.jpg" alt="app-header" class="app-img">
