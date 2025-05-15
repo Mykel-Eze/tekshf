@@ -4,7 +4,7 @@
       <div class="container">
         <div class="footer-text-wrapper max-w-[898px] my-[80px] mx-auto text-center">
           <div class="footer-copyright-div text-[#212337] text-[20px] md:text-[22px]">
-            © 2025 Tekshf. All rights reserved
+            © {{ new Date().getFullYear() }} Tekshf. All rights reserved
           </div>
           <p class="footer-text mt-4 text-[18px]">
             Tekshf is your AI-powered travel companion dedicated to making your journey to world
